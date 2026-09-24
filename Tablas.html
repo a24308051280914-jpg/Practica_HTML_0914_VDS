@@ -1,0 +1,89 @@
+<!-- Villa Diaz Sofia 0914 5°J -->
+<!DOCTYPE html> <!-- Aqui empieza la pagina -->
+<html lang="es"> <!-- El idioma que usa la pagina-->
+
+<head> <!-- Configuracion de la pagina -->
+    <meta charset="UTF-8"> <!-- Sirve para utilizar letras y simbolos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- La pagina se adata a cualquier dispostivo -->
+    <title> Tablas HTML</title> <!-- Titulo de la pestaña -->
+</head> <!-- Cierra configuracion de la pagina -->
+
+<body> <!-- Empieza todo lo que se ve en la pagina -->
+    <h1>Tipos de tablas</h1> <!-- Titulo principal -->
+    <p>El objetivo fundamental de las tablas en HTML sera mostrar una serie de datos en forma ordenada, organizado en filas y columnas
+    </p> <!-- Parrafo de texto -->
+    <p>Para la creacion de una tabla intervienen diferentes elementos:</p> <!-- Parrafo de texto -->
+    <dl> <!-- Lista de definiciones -->
+        <dt>Table</dt> <!-- Dato -->
+        <dd> <!-- Definicion del dato -->
+            Es la marca de comienzo de la tabla. Este elemento requiere la marca de cierre.
+        </dd> <!-- Cierre de la definicion -->
+        <dt>Tr</dt> <!-- Dato -->
+        <dd> <!-- Definicion del dato -->
+            Es la marca de comienzo de una fila. Esta marca debe estar dentro del elemento table
+        </dd> <!-- Definicion del dato -->
+        <dt>Td</dt> <!-- Dato -->
+        <dd> <!-- Definicion del dato -->
+            Es la marca de comeinzo de una celda. Esta marca debe estar dentro del elemento tr
+        </dd> <!-- Definicion del dato -->
+    </dl> <!-- Cierre de lista de definiciones -->
+    <h2>Ejemplo</h2> <!-- Subtitulo del primer ejemplo -->
+    <table border="1"> <!-- Inicia tabla 1 --> 
+        <tr> <!-- Primera fila de la tabla -->
+            <td>Ciudad de Mexico</td> <!-- Primera celda de la tabla -->
+            <td>9.2 millones</td> <!-- Segunda celda de la tabla -->
+        </tr> <!-- Cierra primer fila de la tabla -->
+        <tr> <!-- Segunda fila de la tabla -->
+            <td>Guadalajara</td> <!-- Primera celda de la fila -->
+            <td>4.1 millones</td> <!-- Segunda celda de la fila -->
+        </tr> <!-- Cierra segunda fila de la tabla -->
+        <tr> <!-- Tercera fila de la tabla -->
+            <td>Monterrey</td> <!-- Primera celda de la fila -->
+            <td>3.9 millones</td> <!-- Segunda celda de la fila -->
+        </tr> <!-- Cierra tercera fila de la tabla -->
+    </table> <!-- Cierra la tabla 1 -->
+    <h2>Tabla con encabezado</h2> <!-- Subtitulo de tabla con titulo -->
+    <p>La caracteristicas de esta tabla es que se le agrega a las celdas el encabezado correspondiente, esto solo aplicaria a la primera fila de la tabla con la etiqueta <em>th</em>, las demas filas usarian la etiqueta <em>td</em> con normalidad.
+    </p> <!-- Parrafo de texto con texto en cursiva resaltado -->
+    <table border="1"> <!-- Segunda tabla con borde -->
+        <tr> <!-- Primera fila de encabezados -->
+            <th>Ciudad</th> <!-- Celda de encabezado en negritas -->
+            <th>Cantidad de habitantes</th> <!-- Segunda celda de encabezado en negritas -->
+        </tr> <!-- Cierre de fila de encabezados -->
+        <tr> <!-- Segunda fila con datos -->
+            <td>Ciudad de Mexico</td>
+            <td>9.2 millones</td>
+        </tr> <!-- Cierre de segunda fila -->
+        <tr> <!-- Tercera fila con datos -->
+            <td>Guadalajara</td>
+            <td>4.1 millones</td>
+        </tr> <!-- Cierre de tercera fila -->
+        <tr> <!-- Cuarta fila con datos -->
+            <td>Monterrey</td>
+            <td>3.9 millones</td>
+        </tr> <!-- Cierre de cuarta fila -->
+    </table>
+    <h2>Tabla con titulo</h2>
+    <p>Para insertar un titulo a la tabla debemos incorporar el elemento caption inmediatamente despues de abrir la etiqueta <em>table</em>.
+    </p> <!-- Parrafo con texto -->
+    <table border="1"> <!-- Tercera tabla -->
+        <caption>Poblacion de las ciudades mas concurridas de Mexico</caption> <!-- Titulo de la tabla despues de abrirla -->
+        <tr> <!-- Fila de encabezados -->
+            <th>Ciudad</th>
+            <th>Cantidad de habitantes</th>
+        </tr> <!-- Cierra fila de encabezados -->
+        <tr> <!-- Fila de datos -->
+            <td>Ciudad de Mexico</td>
+            <td>9.2 millones</td>
+        </tr> <!-- Cierra fila de datos -->
+        <tr> <!-- Fila de datos -->
+            <td>Guadalajara</td>
+            <td>4.1 millones</td>
+        </tr> <!-- Cierra fila de datos -->
+        <tr> <!-- Fila de datos -->
+            <td>Monterrey</td>
+            <td>3.9 millones</td>
+        </tr> <!-- Cierra fila de datos -->
+    </table> <!-- Cierra la tercera tabla -->
+</body> <!-- Cierra todo lo que se ve en la pagina-->
+</html> <!-- Cierre del documento -->

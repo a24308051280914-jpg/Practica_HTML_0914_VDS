@@ -1,0 +1,79 @@
+<!-- Villa Diaz Sofia 0914 5°J -->
+<!DOCTYPE html> <!-- Aqui empieza la pagina -->
+<html lang="es"> <!-- El idioma que usa la pagina-->
+
+<head> <!-- Configuracion de la pagina -->
+    <meta charset="UTF-8"> <!-- Sirve para utilizar letras y simbolos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- La pagina se adata a cualquier dispostivo -->
+    <title> Tipos de lsitas HTML</title> <!-- Titulo de la pestaña -->
+</head> <!-- Cierra configuracion de la pagina -->
+
+<body> <!-- Empieza todo lo que se ve en la pagina -->
+    <h1>Tipos de listas</h1> <!-- Titulo principal -->
+    <h2>Listas ordenadas</h2> <!-- Subtitulo para listas ordenadas -->
+    <p>Una lista ordenada es una serie de elementos los cuales tendran una numeracion de acuerdo al numeros de elementos.
+    </p> <!-- Parrafo de texto -->
+
+    <ol> <!-- Empieza lista con orden -->
+        <li>Luna Arias </li> <!-- Primer elemento de lista -->
+        <li>Franco Andrea</li> <!-- Segundo elemento de lista -->
+        <li>Granados Evelyn</li> <!-- Tercer elemento de lista -->
+    </ol> <!-- Cierre de la lista -->
+
+    <h2>Listas no ordenadas</h2> <!-- Subtitulo para lista sin orden -->
+    <p>Las listas no ordenadas no utilizan ninguna numeracion delante 
+        de cada item sino un pequeño elemento grafico
+    </p> <!-- Parrafo de texto -->
+    <ul> <!-- Inicia lista sin orden -->
+        <li>C</li> <!-- Elemento con punto -->
+        <li>C++</li> <!-- Elemento con punto -->
+        <li>Python</li> <!-- Elemento con punto -->
+    </ul> <!-- Cierre de lista sin orden -->
+
+    <h2>Lista de definiciones</h2> <!-- Subtitulo para lista de dato y definicion -->
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p> <!-- Parrafo de texto --> 
+    <dl> <!-- Inicia lista de definiciones --> 
+        <dt>C++</dt> <!-- Primer dato-->
+        <dd><!-- Definicion del primer dato -->
+            Es un lenguaje de programacion, diseñado a mediados de los años
+            1980 como extension del lenguaje de programacion C.
+        </dd> <!-- Cierre de la definicion del primer dato  -->
+        <dt>Java</dt> <!-- Segundo dato -->
+        <dd><!-- Definicion del segundo dato -->
+            Es un lenguaje de programacion orientado a objetos desarrollado
+            por Sun Microsystem a principios de los 90.
+        </dd> <!-- Cierre de la definicion del segundo dato  -->
+        <dt>JavaScript</dt> <!-- Tercer dato -->
+        <dd> <!-- Definicion del tercer dato-->
+            Es un lenguaje interpretado, es decir que no requiere compilacion, utilizado principalmente en paginas web, con una sintaxis similar al lenguaje de programacion C.
+        </dd> <!-- Cierre de la definicion del tercer dato  -->
+    </dl> <!-- Cierre de lista de definiciones --> 
+
+    <h2>Listas anidadas</h2> <!-- Subtitulo para listas anidadas --> 
+    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden anidar diferentes tipos de lista de acuerdo al requerimiento
+    </p> <!-- Parrafo de texto --> 
+    <ol> <!-- Lista principal ordenada con numeros --> 
+        <li>Argentina <!-- Primer pais  --> 
+            <ul> <!-- Lista con punto dentro de Argentina --> 
+                <li>Buenos aires</li> <!-- Ciudad --> 
+                <li>La plata</li> <!-- Ciudad --> 
+                <li>Mendoza</li> <!-- Ciudad --> 
+            </ul> <!-- Cierra lista de Argentina --> 
+        </li> <!-- Cierra argentina --> 
+        <li>España <!-- Segundo pais  -->
+            <ul> <!-- Lista con punto dentro de España -->
+                <li>Barcelona</li> <!-- Ciudad -->
+                <li>Madrid</li> <!-- Ciudad -->
+                <li>Sevilla</li> <!-- Ciudad -->
+            </ul> <!-- Cierra lista de España --> 
+        </li> <!-- Cierra España --> 
+        <li>Mexico <!-- Tercer pais  -->
+            <ul> <!-- Lista con punto dentro de Mexico -->
+                <li>Chihuahua</li> <!-- Ciudad -->
+                <li>Cd. Juarez</li> <!-- Ciudad -->
+                <li>Hermosillo</li> <!-- Ciudad -->
+            </ul> <!-- Cierra lista de Mexico --> 
+        </li> <!-- Cierra Mexico --> 
+    </ol> <!-- Cierra lista principal -->
+</body> <!-- Cierra todo lo que se ve en la pagina -->
+</html> <!-- Cierre del documentlo -->
